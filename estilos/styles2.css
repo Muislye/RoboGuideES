@@ -1,0 +1,18 @@
+.imgprin{
+  position: absolute;
+}
+
+.txts{
+  position: absolute;
+  left: 40%;
+  padding: 25px;
+}
+h1{
+  text-align: center;
+  font-size: 8vw;
+}
+
+p{
+  text-align: justify;
+  font-size: 3vw;
+}
