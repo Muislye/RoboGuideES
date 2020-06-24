@@ -8,7 +8,7 @@ body{
   background-color: #9a9a9a;
   background: #141E30;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffFf;
   font-size: 16px;
   font-family: 'Oswald', sans-serif;
@@ -80,24 +80,85 @@ hr {
   margin: 10px 0px;
 }
 
-.showcase{
+.registro-box {
+  width: 320px; 
+  height: 420px;
+  background:#000;
+  color:#fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.registro-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.registro-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.registro-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+
+}
+
+.registro-box input {
   width: 100%;
-  color: f0f0f0;
-  padding: 5px;
-  align-items: center;
+  margin-bottom: 20px;   
 }
 
-.showcase h1 {
-  padding: 5px;
+.registro-box input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
 }
 
-.texto p {
-  font-size: 33px;
+.registro-box textarea {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  width: 260px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.registro-box input[type="submit"]{
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
 /*LINKS*/
 
 .social {
+  padding-top: 500px;
   margin: 50px;
 }
 

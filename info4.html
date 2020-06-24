@@ -46,14 +46,20 @@
 
       <!--SHOWCASE-->
       <header class="showcase">
-        <h1>Contactanos</h1>
-        <div class="texto">
-          <h2>Telefono:</h2>
-          <h3>5511223344</h3>
-          <br>
-          <h2>Correo:</h2>
-          <h3>ejemplocorreo@dominio.com</h3>
-        </div>
+        <div class="registro-box">
+          <img class="avatar" src="img/logo.png" alt="logo">
+          <h1>Contactanos</h1>
+          <form action="https://formspree.io/mrgyagej" method="POST">
+              <!--User name-->
+              <label for="correo">Ingresa tu correo</label>
+              <input type="email" placeholder="Ingresa tu correo" name="correo">
+                          <!--Password-->
+                          <label for="texto">Ingresa tu texto</label>
+                          <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+                          <!--Boton para subir el registro-->
+                          <input type="submit" name="valider" value="Enviar">
+          </FORM>
+      </div>
       </header>
       <!--Redes sociales-->
       <section class="social">
